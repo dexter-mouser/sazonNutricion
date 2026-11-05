@@ -1,0 +1,98 @@
+.nutricion-encabezado {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.nutricion-encabezado-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  max-width: 720px;
+}
+
+.nutricion-encabezado h1 {
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 700;
+}
+
+.nutricion-zona-avisos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.nutricion-zona-avisos:not(:has(*)) {
+  display: none;
+}
+
+.nutricion-rejilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+.nutricion-columna {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.nutricion-columna h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* =========================================================
+   Zonas por historia de usuario
+   Cada estudiante escribe solo entre las marcas de su HU.
+   ========================================================= */
+
+/* <-HU-4.1.1-"Santiago Padilla"> */
+/* <-> */
+
+/* <-HU-4.1.2-"Santiago Padilla"> */
+/* <-> */
+
+/* <-HU-4.1.3-"Santiago Padilla"> */
+/* <-> */
+
+/* <-HU-4.2.1-"Juan Camilo Valencia Estrada"> */
+/* <-> */
+
+/* <-HU-4.2.2-"Juan Camilo Valencia Estrada"> */
+/* <-> */
+
+/* <-HU-4.2.3-"Juan Camilo Valencia Estrada"> */
+/* <-> */
+
+/* <-HU-4.3.1-"José Manuel Botero Giraldo"> */
+/* <-> */
+
+/* <-HU-4.3.2-"José Manuel Botero Giraldo"> */
+/* <-> */
+
+/* <-HU-4.3.3-"José Manuel Botero Giraldo"> */
+/* <-> */
+
+/* <-HU-4.4.1-"Jose David Correa Builes"> */
+/* <-> */
+
+/* <-HU-4.4.2-"Jose David Correa Builes"> */
+/* <-> */
+
+/* <-HU-4.4.3-"Jose David Correa Builes"> */
+/* <-> */
+
+/* <-HU-4.5.1-"José David Valencia Martínez"> */
+/* <-> */
+
+/* <-HU-4.5.2-"José David Valencia Martínez"> */
+/* <-> */
+
+/* <-HU-4.5.3-"José David Valencia Martínez"> */
+/* <-> */
